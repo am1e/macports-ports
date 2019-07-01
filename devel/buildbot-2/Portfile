@@ -22,7 +22,7 @@ long_description    Buildbot is a system to automate the compile/test \
                     Legacy version is available under buildbot-0.8. \
                     This version will soon be renamed to just 'buildbot'.
 
-homepage            http://buildbot.net
+homepage            https://buildbot.net
 master_sites        pypi:b/buildbot/
 distname            buildbot-${version}
 dist_subdir         buildbot
