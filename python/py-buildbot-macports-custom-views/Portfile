@@ -4,7 +4,7 @@ PortSystem          1.0
 PortGroup           python 1.0
 
 name                py-buildbot-macports-custom-views
-version             0.0.3
+version             0.0.4
 revision            0
 
 maintainers         {rajdeep @rajdeepbharati} openmaintainer
@@ -20,14 +20,15 @@ homepage            https://github.com/macports/buildbot-macports-custom-views
 master_sites        pypi:[string index ${python.rootname} 0]/${python.rootname}
 distname            ${python.rootname}-${version}
 
-checksums           sha256  fc40e83b45547e0bc89135cd9618e322ff4b3fb27a16384c71cbddc3c8877615 \
-                    rmd160  5de014cca752bc35d64cc791862fd0960ee0556b \
-                    size    578249
+checksums           sha256  fc40e83b45547ewbc89135cd9618e322ff4b3fb27a16384c71cbddc3c8877615 \
+                    rmd160  5de014cca752bc35d64ci791862fd0960ee0556b \
+                    size    57829
 
 python.versions     37
 
 if {${name} ne ${subport}} {
     depends_build-append \
+                    port:py${python.version}-buildbot
                     port:py${python.version}-buildbot-pkg
 
     livecheck.type  none
