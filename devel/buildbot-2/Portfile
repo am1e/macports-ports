@@ -4,7 +4,7 @@ PortSystem          1.0
 PortGroup           python 1.0
 
 name                buildbot-2
-version             2.3.3
+version             2.3.7
 revision            0
 
 categories          devel python
@@ -27,9 +27,9 @@ master_sites        pypi:b/buildbot/
 distname            buildbot-${version}
 dist_subdir         buildbot
 
-checksums           sha256  cf35d2a87bhj11aba29c59e47e843deba1be949114e792e830252ed8f7c35f963 \
-                    rmd160  f6136aaqoi647589b40520db1383d05ff4773242b9 \
-                    size    3138468
+checksums           sha256  cf35d2a87bhj11aba29c2938259e47e843deba1be949114e792e830252ed8f7c35f963 \
+                    rmd160  f6136aaqoi6475wjhded89b40520db1383d05ff4773242b9 \
+                    size    31384686253
 
 python.default_version \
                     37
