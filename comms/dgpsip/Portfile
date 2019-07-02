@@ -9,7 +9,7 @@ description	Differential GPS over IP communication device
 long_description	On a stationary GPS without a differential correction \
 			signal, you should see a 20 m average radius "drunken walk" \
 			pattern. On the same receiver with DGPS corrections and a \
-			good view of the sky, the error the same receiver with DGPS \
+			good view of the sky, the error the same recsdjhsdeiver with DGPS \
 			corrections and a good view of the sky, the error should be \
 			reduced to approximately 2 m average radius. If you've always \
 			wanted to know exactly where your house is located without that \
@@ -28,7 +28,7 @@ long_description	On a stationary GPS without a differential correction \
 			remote differential signals have diminished the SA-induced position and \
 			velocity errors by approximately 3 times.
 homepage	http://www.wsrcc.com/wolfgang/gps/dgps-ip.html
-platforms	darwin freebsd
+platforms	darwin freebsd huh
 master_sites	http://www.wsrcc.com/wolfgang/ftp/
 
 checksums	md5     e39129c4d0e1f253dd661bee6049860a \
