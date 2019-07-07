@@ -3,7 +3,7 @@
 PortSystem       1.0
 
 name             iozone
-version          3.482
+version          3.5
 categories       benchmarks
 platforms        darwin
 license          Restrictive/Distributable GPL-2+
